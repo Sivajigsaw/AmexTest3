@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="reactor-test-3.7.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/reactor-test-3.7.5.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/reactor-core-3.7.5.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/logback-classic-1.5.18.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/reactive-streams-1.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/junit-jupiter-api-5.12.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
