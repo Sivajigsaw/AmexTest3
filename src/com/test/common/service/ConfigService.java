@@ -16,7 +16,7 @@ public class ConfigService {
     private final Map<String, RetryBackoffSpec> retrySpec = new ConcurrentHashMap<>();
     private final Map<String, RateLimitConfig> rateLimitConfig = new ConcurrentHashMap<>();
 
-    private static final String FIXED_SPEC = "fixed";
+    public static final String FIXED_SPEC = "fixed";
 
     public ConfigService(ConfigRepository configRepository){
         this.configRepository = configRepository;

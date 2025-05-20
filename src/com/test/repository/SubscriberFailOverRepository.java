@@ -14,6 +14,7 @@ public class SubscriberFailOverRepository {
             "    WHERE sr.Request_id=rd.Request_id and  \n" +
             "\tstatus ='pending' and next_processingtime > current_timestamp()\n" +
             "    ORDER BY next_processingtime\n" +
+             "LIMIT 10000" + // should be configurable just for completed sake
             "    FOR UPDATE\n" +
             ")\n" +
             "UPDATE Subscriber_FailOver_records\n" +
